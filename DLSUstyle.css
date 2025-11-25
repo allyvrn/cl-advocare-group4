@@ -1,0 +1,117 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+    background: #006239;
+    margin: 0px;
+}
+
+.Header{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+}
+
+img{
+    float: left;
+}
+
+.green{
+    background-color: #FFFFFF;
+    font-size: 23px;
+}
+h1{
+    text-align: center;
+}
+body {
+    margin: 0px;
+}
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+
+
+.navbar {
+    background-color: rgb(65, 65, 65);
+    position:sticky;
+    top: 0;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 6%, 88%);
+}
+
+
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+    color: aliceblue;
+}
+
+
+nav ul .submenu{
+    position: absolute;
+    width: 145px;
+    background-color: rgb(65, 65, 65);
+    box-shadow: 0 20px 45px #ebe8e8;
+    margin-top: -50px;
+    opacity: 0;
+    z-index: -999;
+    transition: all ease 0.5s
+
+
+}
+
+
+nav ul li:hover .submenu{
+    z-index: 99;
+    opacity: 1;
+    margin-top: 0;
+    overflow: hidden;
+}
+
+
+nav ul .submenu li{
+    margin: 15px 0px 0px -7px;
+    width: 100%;
+}
+
+
+nav ul .submenu li a{
+    padding: 10px 20px;
+    display: inline-block;
+    width: 100%;
+    margin-left: -20px;
+    margin-top: -1000px;
+}
+
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
